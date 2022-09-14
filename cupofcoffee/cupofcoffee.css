@@ -1,0 +1,369 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding:0px;
+}
+body{
+    background-color:  rgb(247, 219, 186);
+}
+.container123{
+    width:100%;
+    background-color: #f5f5f5;
+}
+header{
+    width:78%;
+    height:65px;
+    position:relative;
+    top:30px;
+    margin-left:12%;
+    background-color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 50px 50px 50px 50px;
+}
+.menu{
+    list-style:none;
+}
+ #app{
+    margin-left:20px;
+    position:absolute;
+    top:8px;
+}
+.menu li{
+    display:inline-block;
+    
+}
+#apps{
+    position:relative;
+    top:-50px;
+    left:35px;
+}
+.menu li a{
+    text-decoration:none;
+    margin-left:50px;
+    position:relative;
+    top:-60px;
+    color:black;
+    font-weight:bold;
+    font-size:17px;
+}
+header .signup a{
+    margin-right:50px;
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    font-size: 17px;
+}
+.clear{
+    clear:both;
+}
+section{
+    width:70%;
+    position:relative;
+    height:500px;
+    top:0px;
+    left:16%;
+    text-align:center;
+}
+section .text1{
+    margin-top:100px;;
+    font-size:35px;
+    word-spacing:10px;
+    font-weight: bold;
+    padding:20px;
+}
+#cof{
+    margin-top:20px;
+}
+.input{
+    margin-top:40px;
+}
+.input input{
+    width:600px;
+    height:70px;
+    border-radius:50px 50px 50px 50px;
+}
+.input button{
+    width:170px;
+    height:50px;
+    margin-left:-180px;
+   font-size:25px;
+   font-weight:bold;
+   border-style: hidden;
+   border-color:#FFDE2B;
+    border-radius:50px 50px 50px 50px;
+    background-color:#FFDE2B;
+}
+.input input[placeholder]{
+    font-size:25px;
+    font-weight:bold;
+}
+.text2{
+    font-size: 21px;
+}
+.signup button{
+    width:70px;
+    height:35px;
+    font-weight:bold;
+    font-size: 17px;
+    border-radius:50px 50px 50px 50px;
+}
+#signup{
+    border-style:hidden;
+    background-color: white;
+}
+#signup:hover{
+background-color: #f5f5f5;
+}
+#login{
+    background:#FFDE2B;
+    border-style:none;
+}
+.menubar{
+    width:80%;
+    height:400px;
+   align-content: center;
+   margin-left:10%;
+}
+.menu1{
+    text-align: center;
+    width:100%;
+    height:60px;
+}
+.menu1 ul li{
+    display:inline-block;
+    margin-top:0px;
+    padding:1px;
+}
+.menu1 ul li button{
+    width:110px;
+    height:50px;
+    border-style:none;
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+}
+#bu{
+    background-color:  rgb(247, 219, 186);
+}
+#video{
+    width:200px;
+    background-color: #cfcece;
+    border-radius: 50px 50px 50px 50px;
+}
+.menu1 ul li #bu:hover{
+    background-color: #cfcece;
+    border-radius: 50px 50px 50px 50px;
+}
+.grid{
+    width:95%;
+    height:300px;
+    margin-left:30px;
+    margin-top:10px;
+}
+.grid {
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+}
+.grid .grid1{
+    text-align: center;
+}
+.grid1 strong{
+   position:relative;
+   top:-10px;
+   left:5px;
+}
+.ccc{
+    clear: both;
+}
+.donation{
+    width:100%;
+    height:850px;
+    background-color: rgb(247, 219, 186);
+    margin-top:100px;
+    text-align: center;
+}
+.donohead{
+    height:350px;
+    width:95%;
+    margin-left: 20px;
+    padding:10px;
+}
+.donohead span{
+    font-size:23px;
+    font-weight: bold;
+    opacity:0.4;
+     
+}
+.donohead #give{
+    padding:5px;
+    font-size:50px;
+    font-weight:bold;
+
+}
+.donohead #buy{
+    font-size:23px;
+    padding:10px;
+    word-spacing:5px;
+}
+.donoimg{
+    width:95%;
+    margin-left:20px;
+    height:490px;
+}
+.donoimg .img1{
+    width:400px;
+    height:200px;
+    float:left;
+    background-color:#f5f5f5;
+    margin-left:270px;
+    border-radius:20px 20px 20px 20px;
+    transform:rotate(4deg);
+    padding:20px;
+}
+.donoimg .img2{
+    float:right;
+    margin-right:10px;
+    margin-top:0px;
+    width:350px;
+    background-color:#f5f5f5;
+    border-radius:10px 10px 10px 10px;
+    height:350px;
+}
+.img2 form{
+    padding:40px;
+}
+.img2 form input{
+    width:250px;
+    margin-left: 27px;
+    height:30px;
+padding:10px;
+}
+.img2 button{
+    width:140px;
+    height:40px;
+    border-radius:50px 50px 50px 50px;
+    background-color:pink;
+}
+.img3{
+    float:left;
+    width:300px;
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+    background-color:#f5f5f5;
+    margin-top:30px;
+    margin-left:270px;
+}
+.img4{
+    float:left;
+    width:300px;
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+    background-color:#f5f5f5;
+    margin-top:30px;
+    margin-left:400px;
+}
+.extra{
+    margin-top: 100px;
+    height:1100px;
+    background: rgb(247, 219, 186);
+    text-align:center;
+    padding:10px;
+}
+.extra h5{
+    font-size: 25px;
+    opacity:0.4;
+}
+.extra h2{
+ font-size: 45px;
+}
+.extra p{
+    font-size:20px;
+    margin-top: 30px;
+}
+.sell{
+    margin-top: 50px;
+    width:90%;
+    margin-left: 50px;
+    height:700px;
+    display:grid;
+    grid-row-gap:40px;
+    grid-template-columns: auto auto auto;
+}
+.gd img{
+    margin-top: 20px;
+    width:250px;
+    height:200px;
+}
+.gd p{
+    margin-top:0px;
+
+}
+.gd button{
+    width:200px;
+    height:30px;
+    border-radius:50px 50px 50px 50px;
+    font-size:15px;
+}
+ #b1{
+    background-color:#FFDE2B;
+}
+#b2{
+    background-color: aqua;
+}
+#b3{
+    background-color:pink;
+}
+#b4{
+    background-color: greenyellow;
+}
+#b5{
+    background-color: blueviolet;
+}
+#b6{
+    background-color: orange;
+}
+.gd{
+    width:300px;
+    height:320px;
+    border-radius: 20px;
+    background-color:#f5f5f5;
+}
+.design{
+    text-align:center;
+    width:104%;
+    position:absolute;
+    margin-left:-200px;
+    height:930px;
+    background-color:#f5f5f5;
+}
+.design #t1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.design #t2{
+    font-size:30px;
+    padding:30px;
+}
+.design button{
+    width:200px;
+    font-size: 15px;
+    height:50px;
+    background-color: #FFDE2B;
+    border-radius:50px 50px 50px 50px;
+}
+.footer{
+    margin-top:90%;
+    width:100%;
+}
+.menu{
+    margin-top:100px;
+}
+.menu #pc{
+    position:relative;
+    top:-80px;
+    right:40px;
+    margin-left:50px;
+    float:right;
+}
